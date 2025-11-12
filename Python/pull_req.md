@@ -38,3 +38,5 @@ Zdj. 4.
 Zdj. 5.
 
 Zarejestrowano dodatkowy problem w braku escape'owania w plikach html przez użycie funkcji safe. Tym sposobem przeglądarka może wykonać złośliwy kod. Aby temu zapobiec należy usunąć tę funkcję co wykonano w plikach z katalogu templates/.
+
+Ostatnim krokiem było przygotowanie testu jednostkowego. Umieszczono go w ścieżce tests/test.py, gdzie znajduje się pojedynczy test jednostkowy poprawności działania walidatora.
